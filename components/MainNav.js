@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Link from 'next/link';
 
 
-function MainNav() {
+export default function MainNav() {
     return (
         <>
         <Navbar expand="lg" className="fixed-top navbar-dark bg-dark">
@@ -27,13 +27,3 @@ function MainNav() {
         </>
     );
   }
-
-  export default MainNav;
-// export default function Home() {
-//     return (
-//       <>
-//       <p>MainNav</p>
-//       </>
-//     );
-//   }
-  
